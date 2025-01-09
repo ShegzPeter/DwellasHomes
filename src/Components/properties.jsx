@@ -138,6 +138,8 @@ const properties = () => {
 
                 
        <div className='h-[477px] w-[385px]  border-2 border-solid rounded-[40px] border-[#D7D7D7]  '>
+
+         
         <div className='w-[330px] h-[243px] ml-[16px] mt-[16px] justify-center'>
             <img src="../images/room2.jpg" alt="" className='z-0 absolute w-[349px] h-[243px]' />
             <button className='w-[88px] h-[38px] bg-white font-custom font-semibold text-[14px] z-1 relative rounded-[12px] ml-[16px] mt-[19px]  '>Sale</button>
