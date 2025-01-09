@@ -21,22 +21,22 @@ const about = () => (
     {/* --------------------- about us ------------------------ */}
 
     <div>
-      <div className='mt-[112px] ml-[73px]'>
-        <p className='text-[#389A4D] text-[28px] font-custom font-semibold '>About Us</p>
+      <div className='mt-[112px] md:ml-[73px] ml-[30px]'>
+        <p className='text-[#389A4D]  text-[18px] md:text-[28px] font-custom font-semibold '>About Us</p>
       </div>
 
       {/* --------------------- about us ------------------------ */}
 
 
-      <div className=' grid grid-cols-2 ml-[73px] mt-[53px]' >
+      <div className=' md:grid grid-cols-2 md:ml-[73px] ml-[30px] mt-[53px]' >
 
-        <div className='text-[50px] font-custom font-semibold '>
+        <div className='text-[24px] md:text-[50px] font-custom font-semibold '>
           <p>Transforming listings </p>
-          <div className='display flex gap-3 font-semibold'><p className=''> into   </p>
-            <p className='text-[#389A4D]'>Beloved Homes.</p>
+          <div className='display flex gap-3 font-semibold'>
+            <p>into <span className='text-[#389A4D]'>Beloved homes</span></p>
          </div>
           
-        <div className='text-[18px] text-[#5D5C5C]  font-custom font-medium mt-[52px] '>
+        <div className='text-[14px] md:text-[18px] text-[#5D5C5C]  font-custom font-medium mt-[52px] '>
           <p>Our real estate service is dedicated to helping <br />
             you find your perfect home . With a team of experienced <br />
             professionals , we offer personalized guidance through <br />
@@ -44,7 +44,7 @@ const about = () => (
         </div>
 
         
-        <div className='text-[18px] text-[#5D5C5C]  font-custom font-medium mt-[28px] '>
+        <div className='text-[14px] md:text-[18px] text-[#5D5C5C]  font-custom font-medium mt-[28px] '>
         <p> From market analysis to property tours , <br />
             we ensure a seamless and stress-free experience,<br /> 
             Our commitment to excellence and deep <br />
@@ -54,46 +54,31 @@ const about = () => (
 
         <div className='mt-[52px] '>
 
-        <div className='flex display-flex gap-[20px] '>
+        <div className='flex display-flex gap-[20px] items-center '>
          <img src="../images/icon.png" alt="" className='w-[24px] h-[24px]' />
-        <p className='text-[20px] text-[#5D5C5C] font-semibold font-custom'> Comprehension Support and Resources </p>
+        <p className=' md:text-[20px] text-[#5D5C5C] font-semibold font-custom'> Comprehension Support and Resources </p>
 
         </div>
 
-        <div className='flex display-flex mt-[16px] gap-[20px] '>
+        <div className='flex display-flex mt-[16px] gap-[20px] items-center '>
         <img src="../images/icon.png" alt="" className='w-[24px] h-[24px]' />
-        <p className='text-[20px] text-[#5D5C5C] font-semibold font-custom'> Effective and Transparent Communication </p>
+        <p className='md:text-[20px] text-[#5D5C5C] font-semibold font-custom'> Effective and Transparent Communication </p>
 
         </div>
 
-        <div className='flex display-flex mt-[16px] gap-[20px]'>
+        <div className='flex display-flex mt-[16px] gap-[20px] items-center'>
           <img src="../images/icon.png" alt="" className='w-[24px] h-[24px]' />
-        <p className='text-[20px] text-[#5D5C5C] font-semibold font-custom'> Personalized and Client - Centric Approach  </p>
+        <p className='md:text-[20px] text-[#5D5C5C] font-semibold font-custom'> Personalized and Client - Centric Approach  </p>
 
         </div>
 
-
-
-
-
-
-
         </div>
-
-
-
-
-        </div>
-
-
-
-
-
-        </div>
+       </div>
+       </div>
      {/* ------------------------ image ----------------- */}
 
-        <div className=''>
-          <img src="../images/jpeg3.png" alt="" className='w-[550px] h-[600px] flex justify-end ml-[30px]' />
+        <div className='md:mt-[20px] mt-[50px] md:ml-[30px] ml-[70px] '>
+          <img src="../images/jpeg3.png" alt="" className=' w-[380px] h-[500px] md:w-[550px] md:h-[600px] flex md:justify-end  justify-center' />
         </div>
 
        {/* ------------------------ image ----------------- */}

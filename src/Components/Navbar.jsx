@@ -17,7 +17,10 @@ const Navbar = () => {
       {/* -----------Navbar -------------- */}
 
       <div className="mt-[60px] flex items-center">
-        <img src="./images/jpeg.1.png" alt="" className="w-[105px] h-[50px] ml-[50px]" />
+        <Link to='/'>
+        <img src="./images/jpeg.1.png" alt="" className="w-[105px] h-[50px] ml-[50px] " />
+        </Link>
+        
 
         {/* Desktop Navbar */}
         <div className="hidden md:flex relative">

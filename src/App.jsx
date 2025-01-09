@@ -5,7 +5,7 @@ import Agent from "./Components/agent"
 import Testimonials from "./Components/testimonials"
 import Footer from "./Components/footer"
 import About from "./Components/about"
-import Properties from './Components/properties'; 
+// import Properties from './Components/properties'; 
 import Agents from './Components/agent'; 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ function App() {
 <Routes>
   <Route path="/" element={<Hero/>} />
   <Route path="/about" element={<About/>}/>
-  <Route path="/properties" element={<Properties />} />
+  <Route path="/property" element={<Property />} />
   <Route path="/agents" element={<Agents />} />
 
 </Routes>

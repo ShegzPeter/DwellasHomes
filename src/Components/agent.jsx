@@ -7,19 +7,19 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const agent = () => {
   return (
     <div>
-      <div className="ml-[72px] mt-[112px]">
-        <p className="text-[28px] font-semibold font-custom text-[#389A4D]">
+      <div className="md:ml-[72px] ml-[30px] mt-[40px] md:mt-[112px]">
+        <p className="md:text-[28px] text-[18px] font-semibold font-custom text-[#389A4D]">
           Agents
         </p>
       </div>
 
-      <div className="grid grid-cols-2">
-        <div className="text-[36px] font-custom font-semibold mt-[53px] ml-[73px] ">
+      <div className="md:grid grid-cols-2">
+        <div className="md:text-[36px] text-[24px] font-custom font-semibold mt-[30px] md:mt-[53px] md:ml-[73px] ml-[30px] ">
           <p>Your Trusted Real </p>
           <p>Estate Advisors </p>
         </div>
 
-        <div className="mt-[53px] flex justify-end mr-[73px] font-custom text-[18px] text-[#5D5C5C] font-">
+        <div className="md:mt-[53px] mt-[30px] flex justify-end md:mr-[73px] mr-[20px] font-custom md:text-[18px] text-[14px] text-[#5D5C5C] ">
           <p>
             Get to know the dedicated professionals behind <br />
             Dwell Homes who are committed to helping you <br />
@@ -30,10 +30,10 @@ const agent = () => {
 
       {/* Agent Card */}
 
-      <div className="mt-[68px] gap-[30px] flex items-center justify-center ">
+      <div className="mt-[68px] md:gap-[5px] space-y-12 gap-[70px] item-center  md:grid grid-cols-3  justify-center ml-[72px] md:ml-[72px]">
 
         {/* 1 card div */}
-        <div className="h-[570px] w-[383px]  border-2 border-solid rounded-[40px] border-[#D7D7D7]">
+        <div className="h-[570px] w-[383px]   border-2 border-solid rounded-[40px]  border-[#D7D7D7]">
           <div className=" ml-[44px] mt-[38px] h-[326px] w-[295px] justify-center ">
             <img src="../images/jpeg.8.png" alt="" className="" />
           </div>
@@ -67,7 +67,7 @@ const agent = () => {
 {/* 2nd card div */}
         <div className="h-[570px] w-[383px]  border-2 border-solid rounded-[40px] border-[#D7D7D7]">
           <div className=" ml-[44px] mt-[38px] h-[326px] w-[295px] justify-center ">
-            <img src="../images/jpeg.8.png" alt="" className="" />
+            <img src="../images/profile1.jpg" alt="" className="" />
           </div>
 
           <div>
@@ -99,7 +99,7 @@ const agent = () => {
 {/* 3rd card div */}
 <div className="h-[570px] w-[383px]  border-2 border-solid rounded-[40px] border-[#D7D7D7]">
           <div className=" ml-[44px] mt-[38px] h-[326px] w-[295px] justify-center ">
-            <img src="../images/jpeg.8.png" alt="" className="" />
+            <img src="../images/profile2.jpg" alt="" className="" />
           </div>
 
           <div>
@@ -132,12 +132,10 @@ const agent = () => {
 
       </div>
 
-<div className="bg-[#F0F0F0] flex h-[59px] w-[276px] px-[20px] mx-auto justify-center items-center gap-[9px] rounded-[30px] mt-[66px] ">
-    <p className="text-[24px] text-[#5D5C5C] font-semibold font-custom  ">View all Agents</p>
-    <p className="text-[24px] text-[#5D5C5C] "><FaArrowRightLong/></p>
+<div className="bg-[#F0F0F0] flex w-[200px] h-[50px] md:h-[59px] md:w-[276px] md:px-[20px] mx-auto justify-center items-center gap-[9px] rounded-[30px] mt-[66px] ">
+    <p className="md:text-[24px] tetext-[#5D5C5C] font-semibold font-custom  ">View all Agents</p>
+    <p className="tmd:text-[24px] text-[#5D5C5C] "><FaArrowRightLong/></p>
 </div>
-
-
 
 
 
